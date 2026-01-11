@@ -1,0 +1,635 @@
+<!--
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                ║
+║     ██████╗ ██╗   ██╗    ██████╗ ███████╗ █████╗ ██╗  ██╗██╗    ██╗ █████╗ ███╗   ██╗ ║
+║     ██╔══██╗╚██╗ ██╔╝    ██╔══██╗╚══███╔╝██╔══██╗██║ ██╔╝██║    ██║██╔══██╗████╗  ██║ ║
+║     ██████╔╝ ╚████╔╝     ██║  ██║  ███╔╝ ███████║█████╔╝ ██║ █╗ ██║███████║██╔██╗ ██║ ║
+║     ██╔══██╗  ╚██╔╝      ██║  ██║ ███╔╝  ██╔══██║██╔═██╗ ██║███╗██║██╔══██║██║╚██╗██║ ║
+║     ██████╔╝   ██║       ██████╔╝███████╗██║  ██║██║  ██╗╚███╔███╔╝██║  ██║██║ ╚████║ ║
+║     ╚═════╝    ╚═╝       ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ║
+║                                                                                ║
+║                      ██╗ ██████╗ ██████╗  █████╗ ██╗                           ║
+║                      ██║██╔═══██╗██╔══██╗██╔══██╗██║                           ║
+║                      ██║██║   ██║██████╔╝███████║██║                           ║
+║                      ██║██║▄▄ ██║██╔══██╗██╔══██║██║                           ║
+║                      ██║╚██████╔╝██████╔╝██║  ██║███████╗                      ║
+║                      ╚═╝ ╚══▀▀═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝                      ║
+║                                                                                ║
+║              ██████╗  █████╗ ███████╗██╗   ██╗███████╗██╗   ██╗ █████╗ ██████╗ ║
+║              ██╔══██╗██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝╚██╗ ██╔╝██╔══██╗██╔══██╗║
+║              ██████╔╝███████║███████╗ ╚████╔╝ ███████╗ ╚████╔╝ ███████║██████╔╝║
+║              ██╔══██╗██╔══██║╚════██║  ╚██╔╝  ╚════██║  ╚██╔╝  ██╔══██║██╔══██╗║
+║              ██████╔╝██║  ██║███████║   ██║   ███████║   ██║   ██║  ██║██║  ██║║
+║              ╚═════╝ ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝║
+║                                                                                ║
+╠════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                ║
+║   🌟 PORTFOLIO WEBSITE - PERSONAL WEBSITE                                      ║
+║   👤 CREATED BY: DZAKWAN IQBAL BASYSYAR                                        ║
+║   📅 YEAR: 2026                                                                ║
+║   🏢 COMPANIES: MINESIVE | SIVELABS                                            ║
+║   📧 CONTACT: contact@dzakwan.dev                                              ║
+║                                                                                ║
+║   ⚠️  ALL RIGHTS RESERVED - BY DZAKWAN IQBAL BASYSYAR                          ║
+║   ⚠️  DO NOT COPY OR REDISTRIBUTE WITHOUT PERMISSION                           ║
+║                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+-->
+
+<!-- ============================================================= -->
+<!--                 BY DZAKWAN IQBAL BASYSYAR                      -->
+<!--              OWNER OF MINESIVE | FOUNDER OF SIVELABS            -->
+<!-- ============================================================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dzakwan Iqbal Basysyar - Entrepreneur, Investor, Developer. Owner of Minesive & Founder of SiveLabs.">
+    <meta name="keywords"
+        content="Dzakwan Iqbal Basysyar, Minesive, SiveLabs, Minecraft Developer, Game Developer, Entrepreneur, Investor">
+    <meta name="author" content="Dzakwan Iqbal Basysyar">
+    <title>Dzakwan Iqbal Basysyar | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <span class="loader-text">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">D<span class="logo-accent">.</span>Iqbal</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#ventures" class="nav-link">Ventures</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-tag animate-fade-up">Welcome to my world</span>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    I'm <span class="gradient-text">Dzakwan</span><br>
+                    <span class="hero-subtitle-text">Iqbal Basysyar</span>
+                </h1>
+                <p class="hero-description animate-fade-up delay-2">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="typing-cursor">|</span>
+                </p>
+                <div class="hero-cta animate-fade-up delay-3">
+                    <a href="#ventures" class="btn btn-primary">
+                        <span>Explore My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                <div class="hero-stats animate-fade-up delay-4">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="18">0</span>
+                        <span class="stat-label">Years Old</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="7">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-left">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <div class="image-border"></div>
+                    <img src="image/dzakwan.jpg" alt="Dzakwan Iqbal Basysyar" class="profile-image">
+                </div>
+                <div class="floating-badges">
+                    <div class="badge badge-1">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Game Dev</span>
+                    </div>
+                    <div class="badge badge-2">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Investor</span>
+                    </div>
+                    <div class="badge badge-3">
+                        <i class="fas fa-rocket"></i>
+                        <span>Entrepreneur</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know Me</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Hello, I'm Dzakwan! 👋</h3>
+                        <p>An 18-year-old entrepreneur, investor, and developer from Indonesia. Currently in my senior
+                            year at <strong>SMA Muhammadiyah 1 Karanganyar</strong>, I'm excited to share that I've been
+                            awarded a <span class="highlight">100% scholarship</span> to continue my studies at
+                            <strong>Binus University Semarang</strong>.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <p>My journey in the tech world began with Minecraft, where I founded <strong>Minesive</strong>
+                            - a legendary Minecraft server in Indonesia. This passion evolved into creating
+                            <strong>SiveLabs</strong>, a freelance game development studio serving clients across
+                            Minecraft, Roblox, and other gaming platforms.
+                        </p>
+                        <p>Beyond gaming, I've diversified into investments, including stocks and Minecraft server
+                            investments. I believe in building rather than just dreaming, and I'm passionate about
+                            creating impactful digital experiences.</p>
+                    </div>
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span class="info-label">Name</span>
+                                <span class="info-value">Dzakwan Iqbal Basysyar</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <div>
+                                <span class="info-label">Age</span>
+                                <span class="info-value">18 Years Old</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="info-label">Education</span>
+                                <span class="info-value">Grade 12 - Binus Scholar</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="info-label">Languages</span>
+                                <span class="info-value">English, Indonesian</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Developer</h4>
+                        <p>Building games and applications with modern technologies</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>Entrepreneur</h4>
+                        <p>Founder of Minesive & SiveLabs</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h4>Investor</h4>
+                        <p>Investing in stocks and gaming ventures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventures Section -->
+    <section class="ventures" id="ventures">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Businesses</span>
+                <h2 class="section-title">My <span class="gradient-text">Ventures</span></h2>
+            </div>
+            <div class="ventures-grid">
+                <!-- Minesive Card -->
+                <div class="venture-card featured">
+                    <div class="venture-bg">
+                        <div class="venture-pattern"></div>
+                    </div>
+                    <div class="venture-content">
+                        <div class="venture-header">
+                            <div class="venture-icon minesive-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="venture-badge">Legendary Server</span>
+                        </div>
+                        <h3 class="venture-title">Minesive</h3>
+                        <p class="venture-description">
+                            A legendary Minecraft server in Indonesia, known for its exceptional gameplay, community,
+                            and innovation. Minesive has become a household name among Indonesian Minecraft players.
+                        </p>
+                        <div class="venture-features">
+                            <span><i class="fas fa-check"></i> Minecraft Server</span>
+                            <span><i class="fas fa-check"></i> Large Community</span>
+                            <span><i class="fas fa-check"></i> Indonesian Legend</span>
+                        </div>
+                        <div class="venture-footer">
+                            <span class="venture-role"><i class="fas fa-crown"></i> Owner & Founder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SiveLabs Card -->
+                <div class="venture-card">
+                    <div class="venture-bg">
+                        <div class="venture-pattern"></div>
+                    </div>
+                    <div class="venture-content">
+                        <div class="venture-header">
+                            <div class="venture-icon sivelabs-icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <span class="venture-badge">Game Studio</span>
+                        </div>
+                        <h3 class="venture-title">SiveLabs</h3>
+                        <p class="venture-description">
+                            A freelance game development studio specializing in Minecraft, Roblox, and other gaming
+                            platforms. We bring creative visions to life through expert development.
+                        </p>
+                        <div class="venture-features">
+                            <span><i class="fas fa-check"></i> Game Development</span>
+                            <span><i class="fas fa-check"></i> Minecraft Plugins</span>
+                            <span><i class="fas fa-check"></i> Roblox Games</span>
+                        </div>
+                        <div class="venture-footer">
+                            <span class="venture-role"><i class="fas fa-crown"></i> Founder & Lead Developer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Investment Card -->
+                <div class="venture-card">
+                    <div class="venture-bg">
+                        <div class="venture-pattern"></div>
+                    </div>
+                    <div class="venture-content">
+                        <div class="venture-header">
+                            <div class="venture-icon investment-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <span class="venture-badge">Portfolio</span>
+                        </div>
+                        <h3 class="venture-title">Investment Portfolio</h3>
+                        <p class="venture-description">
+                            Active investor in both traditional markets and gaming industry. My portfolio includes
+                            stocks, as well as strategic investments in Minecraft server projects.
+                        </p>
+                        <div class="venture-features">
+                            <span><i class="fas fa-check"></i> Stock Market</span>
+                            <span><i class="fas fa-check"></i> Gaming Investments</span>
+                            <span><i class="fas fa-check"></i> MC Server Investor</span>
+                        </div>
+                        <div class="venture-footer">
+                            <span class="venture-role"><i class="fas fa-coins"></i> Active Investor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Can Do</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon html-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon css-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon js-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon php-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon python-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon cpp-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">C++</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon lua-icon">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <span class="skill-name">Lua</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-lightbulb"></i>
+                        Other Skills
+                    </h3>
+                    <div class="other-skills">
+                        <span class="skill-tag"><i class="fas fa-gamepad"></i> Game Development</span>
+                        <span class="skill-tag"><i class="fas fa-cube"></i> Minecraft Development</span>
+                        <span class="skill-tag"><i class="fas fa-dice-d6"></i> Roblox Development</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> Server Management</span>
+                        <span class="skill-tag"><i class="fas fa-users"></i> Team Leadership</span>
+                        <span class="skill-tag"><i class="fas fa-chart-line"></i> Business Strategy</span>
+                        <span class="skill-tag"><i class="fas fa-handshake"></i> Client Relations</span>
+                        <span class="skill-tag"><i class="fas fa-coins"></i> Investment Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="journey" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Path</span>
+                <h2 class="section-title">My <span class="gradient-text">Journey</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026</span>
+                        <h3>Binus University Semarang</h3>
+                        <p>Starting university with a 100% scholarship. Ready to take my skills to the next level and
+                            expand my knowledge in technology and business.</p>
+                        <span class="timeline-badge upcoming">Upcoming</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3>100% Scholarship Recipient</h3>
+                        <p>Awarded a full scholarship to Binus University Semarang in recognition of my achievements and
+                            potential.</p>
+                        <span class="timeline-badge achievement">Achievement</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Founded SiveLabs</h3>
+                        <p>Established SiveLabs as a freelance game development studio, offering services for Minecraft,
+                            Roblox, and other gaming platforms.</p>
+                        <span class="timeline-badge business">Business</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3>Started Investing</h3>
+                        <p>Began my investment journey in stocks and gaming industry, diversifying my portfolio and
+                            building for the future.</p>
+                        <span class="timeline-badge investment">Investment</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020</span>
+                        <h3>Founded Minesive</h3>
+                        <p>Started Minesive, which grew to become one of the most legendary Minecraft servers in
+                            Indonesia with a thriving community.</p>
+                        <span class="timeline-badge milestone">Milestone</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018</span>
+                        <h3>Started Coding</h3>
+                        <p>Began my programming journey, learning HTML, CSS, and JavaScript. This sparked my passion for
+                            development.</p>
+                        <span class="timeline-badge beginning">Beginning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind? Looking for a developer or want to collaborate? Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">contact@dzakwan.dev</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Location</span>
+                                <span class="method-value">Karanganyar, Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Discord">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">D<span class="logo-accent">.</span>Iqbal</span>
+                    <p>Entrepreneur • Developer • Investor</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#ventures">Ventures</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Dzakwan Iqbal Basysyar. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
